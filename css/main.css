@@ -11,35 +11,84 @@
   
 }
 
+body
+{
+  background-image: url('../assets/imgs/unicornio.jpg');
+  background-position: right; /*Posicionamos el fondo en el centro*/
+  background-repeat:no-repeat;/*Indicamos que no se repita el fondo*/
+  background-size: 25%;/*Ajustamos el tamaño de la imagen de fondo*/
+  font-family: 'Monoton', cursive;
+}
+
+
+
+h1{
+  margin:50px;
+  text-align: center;
+  text-decoration:underline;
+  
+}
+
+
+select{
+ text-align: center;
+ color: white;
+ background-color:#99f;
+}
+
+#options {
+  margin-top: 50px;
+padding-left:46%;
+
+
+}
+
+
 #grid {
   
-  padding: 10%;
-  outline: solid 1px red;
+  text-align: center;
+ 
   width: 100%;
-  background-color: black;
+
 }
 
 .images{
   display:inline-block;
-  height:25%;
-  width:25%;
-  outline: solid 1px blue;
+  
+  margin: 20px;
+  
+
 
 }
 
 .images img{
+  height:300px;
 max-width: 100%;
-max-height: 100%;  
+max-height:100%;
+width:300px;
+
 }
 
 .grayscale img{
   filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter:grayscale(100%);
+  -ms-filter: grayscale(100%);
 }
 
 .sepia img{
   filter:sepia(100%);
+  -webkit-filter: sepia(100%);
+  -moz-filter: sepia(100%);
+  -o-filter:sepia(100%);
+  -ms-filter: sepia(100%);
 }
 
 .invert img{
   filter:invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter:invert(100%);
+  -ms-filter: invert(100%);
 }
