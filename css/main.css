@@ -16,3 +16,14 @@
   
 }
 
+.grayscale img{
+  filter:grayscale(100%);
+}
+
+.sepia img{
+  filter:sepia(100%);
+}
+
+.invert img{
+  filter:invert(100%);
+}
