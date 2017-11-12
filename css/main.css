@@ -11,9 +11,25 @@
   
 }
 
-
-#grid{
+#grid {
   
+  padding: 10%;
+  outline: solid 1px red;
+  width: 100%;
+  background-color: black;
+}
+
+.images{
+  display:inline-block;
+  height:25%;
+  width:25%;
+  outline: solid 1px blue;
+
+}
+
+.images img{
+max-width: 100%;
+max-height: 100%;  
 }
 
 .grayscale img{
